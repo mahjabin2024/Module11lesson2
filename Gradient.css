@@ -1,0 +1,62 @@
+div {
+    height: 100px;
+}
+
+#div1 {
+    background: linear-gradient(green, red);
+}
+
+#div2 {
+    background: linear-gradient(to right, green, red);
+}
+
+#div3 {
+    background: linear-gradient(to bottom right, green, red);
+}
+
+#div4 {
+    background: linear-gradient(green, red, orange, yellow, blue, violet);
+}
+
+#div5 {
+    background: radial-gradient(green, red);
+}
+
+#div6 {
+    background: radial-gradient(circle, green 10%, red 30%, yellow 30%, blue 30%);
+}
+
+#div7 {
+    background: radial-gradient(circle, green 10%, red 20%, yellow 50%, blue 20%);
+}
+
+#div8 {
+    background: conic-gradient(green 45deg, red, yellow 90deg, blue 10deg);
+}
+
+#animationdiv {
+    width: 200px;
+    background-color: antiquewhite;
+    animation: example 10s infinite;
+    /*animation-duration: 10s;*/
+
+
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+    }
+
+    25% {
+        background-color: blue;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    100% {
+        background-color: orange;
+    }
+}
